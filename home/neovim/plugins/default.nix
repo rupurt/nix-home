@@ -16,7 +16,6 @@
     # ./noice.nix
     # ./notify.nix
     ./cmp.nix
-    ./nvim-osc52.nix
     ./sniprun.nix
     # ./specs.nix
     ./surround.nix
