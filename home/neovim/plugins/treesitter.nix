@@ -1,15 +1,19 @@
 {
   programs.nixvim.plugins.treesitter = {
     enable = true;
-    folding = true;
-    indent = false;
-    incrementalSelection = {
-      enable = true;
-      keymaps = {
-        initSelection = "<leader>ss";
-        nodeIncremental = "<leader>sn";
-        scopeIncremental = "<leader>sc";
-        nodeDecremental = "<leader>sd";
+    settings = {
+      folding = true;
+      indent = {
+        enable = false;
+      };
+      incremental_selection = {
+        enable = true;
+        keymaps = {
+          init_selection = "<leader>ss";
+          node_incremental = "<leader>sn";
+          scope_incremental = "<leader>sc";
+          node_decremental = "<leader>sd";
+        };
       };
     };
   };

@@ -20,7 +20,6 @@
       pax-utils
       # network utils
       tcpdump
-      junkie
       ipcalc
       wireguard-tools
       netbird
@@ -84,7 +83,6 @@
       ])
       terraform
       terraform-ls
-      pulumi
       flyctl
       # load testing
       k6
@@ -113,12 +111,15 @@
       zsh
       # network utils
       dhcpdump
+      junkie
       # docker
       # gpu
       nvtopPackages.full
       gotop
       iaito
       insomnia
+      # cloud
+      pulumi
       # mainframe
       x3270
     ];
