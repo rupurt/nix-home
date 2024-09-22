@@ -1,5 +1,5 @@
 {
   programs.nixvim.plugins.neorg = {
-    enable = true;
+    enable = false;
   };
 }

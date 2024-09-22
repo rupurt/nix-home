@@ -1,6 +1,6 @@
 {
   programs.nixvim.plugins.coq-thirdparty = {
-    enable = true;
+    enable = false;
     sources = [
       {
         src = "copilot";

@@ -1,6 +1,10 @@
 {
   programs.nixvim.plugins.bufferline = {
     enable = true;
-    mode = "tabs";
+    # settings = {
+    #   options = {
+    #     mode = "tabs";
+    #   };
+    # };
   };
 }
