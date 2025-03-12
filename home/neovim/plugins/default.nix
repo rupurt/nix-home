@@ -7,8 +7,8 @@
     ./copilot-cmp.nix
     ./copilot-lua.nix
     ./copilot-vim.nix
-    ./coq-nvim.nix
-    ./coq-thirdparty.nix
+    # ./coq-nvim.nix
+    # ./coq-thirdparty.nix
     ./goyo.nix
     ./helm.nix
     ./lsp.nix
