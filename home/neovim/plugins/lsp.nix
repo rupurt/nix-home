@@ -13,7 +13,7 @@
         lua_ls.enable = true;
         nil_ls.enable = true;
         pyright.enable = true;
-        ruff_lsp.enable = true;
+        ruff.enable = true;
         rust_analyzer = {
           enable = true;
           installRustc = true;
