@@ -25,6 +25,8 @@
       tailscale
       whois
       # gftp
+      # logs
+      lnav
       # general utils
       asciinema-agg
       fzf
