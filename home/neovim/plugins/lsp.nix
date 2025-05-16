@@ -9,6 +9,7 @@
         eslint.enable = true;
         gopls.enable = true;
         html.enable = true;
+        java_language_server.enable = true;
         jsonls.enable = true;
         lua_ls.enable = true;
         nil_ls.enable = true;
@@ -24,7 +25,6 @@
         terraformls.enable = true;
         ts_ls.enable = true;
         yamlls.enable = true;
-        # zls fails to compile on darwin with the current flake.lock
         zls.enable = false;
       };
       keymaps = {
