@@ -91,6 +91,7 @@
       # redis
       redis
       # ai
+      gemini-cli
       ollama
       openai-whisper-cpp
       # TODO:
