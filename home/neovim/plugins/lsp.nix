@@ -3,6 +3,7 @@
     lsp = {
       enable = true;
       servers = {
+        biome.enable = true;
         clangd.enable = true;
         cssls.enable = true;
         elixirls.enable = true;
