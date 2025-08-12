@@ -1,5 +1,5 @@
 {
   programs.nixvim.plugins.cmp = {
-    enable = false;
+    enable = true;
   };
 }
