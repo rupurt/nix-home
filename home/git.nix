@@ -12,7 +12,7 @@
     aliases = {
       st = "status";
       co = "checkout";
-      w = "whatchanged";
+      w = "log --raw --no-merges";
       fo = "fetch origin";
       pr = "pull --rebase";
     };
