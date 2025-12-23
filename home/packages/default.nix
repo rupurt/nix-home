@@ -72,9 +72,9 @@
       # storage
       minio-client
       # k8s
-      kubectl
-      kubernetes-helm
-      kubectx
+      # kubectl
+      # kubernetes-helm
+      # kubectx
       krew
       k9s
       skaffold
