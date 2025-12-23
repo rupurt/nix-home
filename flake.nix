@@ -33,7 +33,7 @@
           pkgs = pkgs;
 
           modules = [
-            nixvim.homeManagerModules.nixvim
+            nixvim.homeModules.nixvim
             ./home
           ];
         };

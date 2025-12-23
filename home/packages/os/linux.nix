@@ -6,7 +6,6 @@
       zsh
       # network utils
       dhcpdump
-      junkie
       # system utils
       pax-utils
       # observability

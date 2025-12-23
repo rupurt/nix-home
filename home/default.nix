@@ -4,6 +4,7 @@
     ./neovim
     ./zsh.nix
     ./git.nix
+    ./difftastic.nix
     ./direnv.nix
     ./packages
   ];

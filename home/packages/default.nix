@@ -51,6 +51,8 @@
       fq
       # reverse engineering
       radare2
+      # terminal
+      # ghostty
       # remote
       upterm
       # tmux
@@ -93,7 +95,7 @@
       # ai
       gemini-cli
       ollama
-      openai-whisper-cpp
+      whisper-cpp
       # TODO:
       # - oterm is fixed on main
       # - https://github.com/NixOS/nixpkgs/blob/nixos-unstable/pkgs/by-name/ot/oterm/package.nix#L52
