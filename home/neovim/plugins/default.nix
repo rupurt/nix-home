@@ -13,7 +13,7 @@
     ./helm.nix
     ./lsp.nix
     ./lspsaga.nix
-    ./magma-nvim.nix
+    # ./magma-nvim.nix # ueberzug dependency is Linux-only
     ./neogit.nix
     ./neorg.nix
     # ./noice.nix
