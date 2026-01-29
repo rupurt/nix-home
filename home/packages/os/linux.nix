@@ -19,6 +19,6 @@
       # ngrok is broken SSL routines::wrong version number
       # ngrok
       # mainframe
-      x3270
+      # x3270
     ];
 }
