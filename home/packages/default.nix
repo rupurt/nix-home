@@ -93,6 +93,7 @@
       # redis
       redis
       # ai
+      codex
       gemini-cli
       ollama
       whisper-cpp
