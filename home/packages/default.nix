@@ -1,4 +1,4 @@
-{pkgs, ...}: {
+{pkgs, codex-pkg, ...}: {
   imports = [
     ./os/darwin.nix
     ./os/linux.nix
@@ -93,7 +93,7 @@
       # redis
       redis
       # ai
-      codex
+      codex-pkg
       gemini-cli
       ollama
       whisper-cpp
