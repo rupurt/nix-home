@@ -51,6 +51,7 @@
       fq
       # reverse engineering
       radare2
+      binsider
       # terminal
       # ghostty
       # remote
