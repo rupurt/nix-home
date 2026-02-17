@@ -19,10 +19,10 @@ switch_home()
   HOME_MANAGER_VERSION=$(home-manager --version 2>/dev/null)
   if [ $? -eq 0 ]; then
     echo "home-manager is already installed version=[$HOME_MANAGER_VERSION]"
-    home-manager switch -b backup --flake .
+    home-manager switch -b backup --flake . -L
   else
     echo "running home-manager switch via nix run"
-    nix run home-manager/master -- switch -b backup --flake .
+    nix run home-manager/master -- switch -b backup --flake . -L
   fi
 }
 
