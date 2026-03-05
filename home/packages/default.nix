@@ -39,7 +39,6 @@
       watchman
       # system information
       fastfetch
-      neofetch
       # http
       httpstat
       # compression
