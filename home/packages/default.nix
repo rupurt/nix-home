@@ -1,4 +1,8 @@
-{pkgs, codex-pkg, ...}: {
+{
+  pkgs,
+  llm-agents-pkgs,
+  ...
+}: {
   imports = [
     ./os/darwin.nix
     ./os/linux.nix
@@ -93,8 +97,6 @@
       # redis
       redis
       # ai
-      codex-pkg
-      gemini-cli
       ollama
       whisper-cpp
       # TODO:
@@ -103,5 +105,10 @@
       # oterm
       # python
       uv
-    ];
+    ]
+    ++ (with llm-agents-pkgs; [
+      codex
+      gemini-cli
+      agent-browser
+    ]);
 }

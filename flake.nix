@@ -12,8 +12,8 @@
       url = "github:pta2002/nixvim";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    codex = {
-      url = "github:openai/codex";
+    llm-agents = {
+      url = "github:numtide/llm-agents.nix";
     };
   };
 
@@ -22,7 +22,7 @@
     flake-utils,
     home-manager,
     nixvim,
-    codex,
+    llm-agents,
     ...
   }: let
     systems = ["x86_64-linux" "aarch64-linux" "x86_64-darwin" "aarch64-darwin"];
@@ -37,16 +37,7 @@
           pkgs = pkgs;
 
           extraSpecialArgs = {
-            codex-pkg = let
-              codex-base = codex.packages.${system}.default;
-            in
-              if pkgs.stdenv.isLinux
-              then
-                codex-base.overrideAttrs (old: {
-                  nativeBuildInputs = (old.nativeBuildInputs or []) ++ [pkgs.pkg-config];
-                  buildInputs = (old.buildInputs or []) ++ [pkgs.libcap];
-                })
-              else codex-base;
+            llm-agents-pkgs = llm-agents.packages.${system};
           };
 
           modules = [
