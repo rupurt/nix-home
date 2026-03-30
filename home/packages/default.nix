@@ -68,7 +68,6 @@
       gh
       subgit
       # development utils
-      difftastic
       mkcert
       wasmtime
       upx

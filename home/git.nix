@@ -18,7 +18,7 @@
       };
 
       init.defaultBranch = "main";
-      pager.diff = false;
+      diff.colorMoved = "default";
     };
 
     ignores = [
