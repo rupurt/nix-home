@@ -43,7 +43,7 @@
 
     sessionVariables = {
       STEAM_EXTRA_COMPAT_TOOLS_PATHS = "\${HOME}/.steam/root/compatibilitytools.d";
-      PATH="$HOME/.local/bin:$HOME/.opencode/bin:$HOME/.local/share/rialo/bin:$PATH";
+      PATH="$HOME/.local/bin:$HOME/.cargo/bin:$HOME/.opencode/bin:$HOME/.local/share/rialo/bin:$PATH";
     };
 
     # initExtra = ''
