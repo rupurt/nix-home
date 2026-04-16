@@ -20,6 +20,7 @@
       zenith
       bat
       tree
+      dust
       # network utils
       tcpdump
       ipcalc
