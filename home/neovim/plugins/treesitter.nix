@@ -2,6 +2,7 @@
   programs.nixvim.plugins.treesitter = {
     enable = true;
     folding.enable = true;
+    highlight.disable = [];
     # indent = false;
 
     settings = {
@@ -9,7 +10,6 @@
         enable = true;
         additional_vim_regex_highlighting = true;
         custom_captures = {};
-        disable = [];
       };
       incremental_selection = {
         enable = true;
