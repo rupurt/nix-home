@@ -3,6 +3,7 @@
     ./avante.nix
     ./bufferline.nix
     ./comment.nix
+    ./conform.nix
     ./copilot-chat.nix
     ./copilot-cmp.nix
     ./copilot-lua.nix

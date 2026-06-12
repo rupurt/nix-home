@@ -20,6 +20,10 @@
           enable = true;
           installRustc = true;
           installCargo = true;
+          settings = {
+            check.command = "clippy";
+            procMacro.enable = true;
+          };
         };
         svelte.enable = true;
         tailwindcss.enable = true;

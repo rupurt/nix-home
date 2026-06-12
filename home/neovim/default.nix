@@ -1,4 +1,4 @@
-{...}: {
+{pkgs, ...}: {
   imports = [
     ./plugins
     ./options
@@ -9,6 +9,7 @@
 
   programs.nixvim = {
     enable = true;
+    nixpkgs.pkgs = pkgs;
     globals.mapleader = " ";
     luaLoader.enable = true;
 
