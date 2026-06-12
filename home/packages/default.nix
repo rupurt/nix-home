@@ -40,7 +40,6 @@
       hurl
       ripgrep
       rsync
-      silver-searcher
       watchman
       # system information
       fastfetch
