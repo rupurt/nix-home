@@ -14,6 +14,7 @@
       cachix
       # auth
       _1password-cli
+      oauth2c
       # system utils
       htop
       btop
