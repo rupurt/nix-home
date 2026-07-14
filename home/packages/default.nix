@@ -45,7 +45,7 @@
       # system information
       fastfetch
       # http
-      httpstat
+      #httpstat
       # compression
       unzip
       gzip
