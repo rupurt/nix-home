@@ -16,8 +16,7 @@
       iaito
       insomnia
       # remote
-      # ngrok is broken SSL routines::wrong version number
-      # ngrok
+      ngrok
       # mainframe
       # x3270
     ];
