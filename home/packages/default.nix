@@ -73,8 +73,6 @@
       wasmtime
       upx
       hugo
-      # storage
-      minio-client
       # k8s
       # kubectl
       # kubernetes-helm

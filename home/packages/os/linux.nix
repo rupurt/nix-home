@@ -1,7 +1,7 @@
 {pkgs, ...}: {
   home.packages = with pkgs;
     []
-    ++ lib.optionals (pkgs.stdenv.isLinux) [
+    ++ lib.optionals (pkgs.stdenv.hostPlatform.isLinux) [
       # shell
       zsh
       # network utils
@@ -13,7 +13,7 @@
       # gpu
       nvtopPackages.full
       gotop
-      iaito
+      # iaito
       insomnia
       # remote
       ngrok
